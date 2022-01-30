@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-
+import { BsDot } from "react-icons/bs";
 const AboutHeader = () => {
   return (
     <div className="bg-white">
@@ -64,19 +64,11 @@ const AboutHeader = () => {
           <div className="relative">
             <input
               type="text"
-              className="border-b border-black h-8 focus:outline-none text-sm"
+              className="border-b border-gray-300 h-8 focus:outline-none text-sm"
             />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              fill="#EBEBEB"
-              class="bi bi-dot"
-              viewBox="0 0 16 16"
-              className="absolute -top-2 -left-2.5"
-            >
-              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-            </svg>
+            <span className="absolute -left-2 ">
+              <BsDot className="w-8 h-8 text-gray-300" />
+            </span>
           </div>
           <button className="bg-[#00D170] text-white font-semibold w-24 h-10 rounded-md ms-4 focus:outline-hidden focus:border-none hover:scale-105 transition-all ease-in-out duration-200 ">
             ارسال لینک

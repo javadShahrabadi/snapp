@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { BsDot } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="bg-white max-w-6xl mx-auto py-16 z-100">
@@ -19,19 +20,10 @@ const Footer = () => {
               name="phone_number"
               id="phone_number"
               placeholder="شماره همراه"
-              className="w-full border border-gray-300 rounded-lg px-3 py-3 text-sm"
+              className="w-full border border-gray-300 rounded-lg px-3 py-3 text-sm focus:outline-none"
             />
             <span className="absolute top-4 left-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
-                class="bi bi-dot"
-                fill="#D1D5DB"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-              </svg>
+              <BsDot className="w-8 h-8 text-gray-300" />
             </span>
           </div>
           <p className="text-sm pt-2 text-[#404040]">

@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <div>
       <Head>
-        <title>contact</title>
+        <title>snapp-contact</title>
         <meta
           name="description"
           content="snapp - created by javad shahrabadi"

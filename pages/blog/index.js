@@ -4,7 +4,7 @@ export default function BlogPage() {
   return (
     <div>
       <Head>
-        <title>بلاگ</title>
+        <title>snapp-blog</title>
         <meta
           name="description"
           content="snapp - created by javad shahrabadi"

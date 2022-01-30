@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { BsDot } from "react-icons/bs";
 const Header = () => {
   return (
     <div className="w-full flex flex-col md:flex-row h-[400px] md:h-[600px]">
@@ -21,16 +22,7 @@ const Header = () => {
             placeholder="شماره همراه"
           />
           <span className="absolute top-3 left-28">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              class="bi bi-dot"
-              fill="#D1D5DB"
-              viewBox="0 0 16 16"
-            >
-              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-            </svg>
+            <BsDot className="w-8 h-8 text-gray-300" />
           </span>
         </div>
         <p className="w-full pe-3 lg:px-0 text-sm text-[#404040]">

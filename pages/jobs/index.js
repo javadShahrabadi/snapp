@@ -5,7 +5,7 @@ export default function JobsPage() {
   return (
     <div>
       <Head>
-        <title>jobs</title>
+        <title>snapp-jobs</title>
         <meta
           name="description"
           content="snapp - created by javad shahrabadi"

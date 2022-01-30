@@ -1,5 +1,6 @@
 import React from "react";
 import { SearchIcon, ChevronDownIcon } from "@heroicons/react/outline";
+import { BsDot } from "react-icons/bs";
 const Address = () => {
   return (
     <div className="bg-white grid grid-cols-4 max-w-6xl mx-auto relative -mt-16 rounded-md">
@@ -371,16 +372,8 @@ const Address = () => {
               id="send-link"
               className="focus:outline-none text-sm border-b border-gray-200 px-5 py-2"
             />
-            <span className="absolute -left-2 top-1 fill-gray-300">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
-                class="bi bi-dot"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-              </svg>
+            <span className="absolute -left-2 top-1 text-gray-300">
+              <BsDot className="w-8 h-8" />
             </span>
           </div>
           <button className="text-white font-semibold bg-[#00e261] px-4 py-1 rounded-md">
