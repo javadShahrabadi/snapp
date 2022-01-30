@@ -1,0 +1,67 @@
+@import url("https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    direction: rtl;
+    font-family: "Vazir";
+    background-color: #f2f5f8;
+  }
+}
+@layer components {
+  .header__button {
+    @apply border-t-0 border-l-0 border-r-0 outline-none focus:outline-hidden py-3 px-2  bg-transparent border border-[#EBEBEB] text-[#EBEBEB] placeholder-[#7BCC9B];
+  }
+  .active__btn_login {
+    @apply bg-[#3d424d] border-b border-white;
+  }
+}
+
+.ltr_text {
+  direction: ltr;
+}
+
+.animation_color_btn {
+  animation-name: color_btn_change;
+  animation-duration: 1s;
+}
+.navbar_animation {
+  animation-name: navbar_animation;
+  animation-duration: 1s;
+}
+.navbar_animation_2 {
+  animation-name: navbar_animation_2;
+  animation-duration: 1s;
+}
+/* animation */
+
+@keyframes color_btn_change {
+  0% {
+    background-color: #101115;
+  }
+  50% {
+    background-color: #25272e;
+  }
+  100% {
+    background-color: #3d424d;
+  }
+}
+@keyframes navbar_animation {
+  0% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: translateY(0);
+  }
+}
+@keyframes navbar_animation_2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(0);
+  }
+}
