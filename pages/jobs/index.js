@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Main from "../components/jobs/Main";
+import Main from "../../components/jobs/Main";
 
 export default function JobsPage() {
   return (

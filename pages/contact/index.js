@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Main from "../components/contact/Main";
+import Main from "../../components/contact/Main";
 
 export default function ContactPage() {
   return (

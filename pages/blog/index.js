@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Main from "../components/blog/Main";
+import Main from "../../components/blog/Main";
 export default function BlogPage() {
   return (
     <div>

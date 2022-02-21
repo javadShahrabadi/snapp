@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Main from "../components/rider_cloop/Main";
+import Main from "../../components/rider_cloop/Main";
 
 export default function RiderCloopPage() {
   return (

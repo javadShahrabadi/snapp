@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Main from "../components/rider_register/Main";
+import Main from "../../components/rider_register/Main";
 export default function RiderRegisterPage() {
   return (
     <div>
